@@ -21,11 +21,11 @@ Useful when using Google Sheets as CMS.
 
 ```js
 export default {
-	plugins: [
-		sheets({
-			creds: "creds.json"
-		})
-	]
+  plugins: [
+    sheets({
+      creds: "creds.json"
+    })
+  ]
 }
 ```
 
