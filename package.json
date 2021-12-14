@@ -15,6 +15,10 @@
 		"google-sheets",
 		"sheets"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BlueFrog130/vite-plugin-sheets"
+	},
 	"scripts": {
 		"build": "rollup -c"
 	},
