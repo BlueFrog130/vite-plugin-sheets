@@ -1,12 +1,19 @@
 {
 	"name": "vite-plugin-sheets",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
 	"files": [
 		"dist"
+	],
+	"keywords": [
+		"vite",
+		"vite-plugin",
+		"google",
+		"google-sheets",
+		"sheets"
 	],
 	"scripts": {
 		"build": "rollup -c"
