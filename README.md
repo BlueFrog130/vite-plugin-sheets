@@ -6,6 +6,9 @@ Useful when using Google Sheets as CMS. Spreadsheet must be shared with the serv
 
 Check out the [Sheets API](https://developers.google.com/sheets/api/) to get started. You must have a Google Cloud Project with the "Sheets API" enabled.
 
+|:warning: Only loads sheets data once per build, this is to save API calls. |
+|-----------------|
+
 #### Required Options
 
 - `creds`: Path to [service account credentials](https://console.cloud.google.com/iam-admin/serviceaccounts)
