@@ -1,6 +1,6 @@
 {
 	"name": "vite-plugin-sheets",
-	"version": "1.0.3",
+	"version": "2.0.0",
 	"description": "",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
@@ -20,13 +20,15 @@
 		"url": "https://github.com/BlueFrog130/vite-plugin-sheets"
 	},
 	"scripts": {
-		"build": "rollup -c"
+		"build": "rollup -c",
+		"test": "node -r dotenv/config test/test.mjs dotenv_config_path=test/.env"
 	},
 	"author": "gradydevelopment <adam.grady@live.com>",
 	"license": "MIT",
 	"devDependencies": {
 		"@rollup/plugin-typescript": "^8.3.0",
 		"@types/node": "^16.11.12",
+		"dotenv": "^10.0.0",
 		"prettier": "^2.5.1",
 		"rollup": "^2.61.1",
 		"tslib": "^2.3.1",
