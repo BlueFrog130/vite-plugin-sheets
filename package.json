@@ -21,7 +21,8 @@
 	},
 	"scripts": {
 		"build": "rollup -c",
-		"test": "node -r dotenv/config test/test.mjs dotenv_config_path=test/.env"
+		"test": "node -r dotenv/config test/test.mjs dotenv_config_path=test/.env",
+		"prepublish": "rollup -c"
 	},
 	"author": "gradydevelopment <adam.grady@live.com>",
 	"license": "MIT",
