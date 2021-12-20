@@ -8,7 +8,7 @@ Check out the [Sheets API](https://developers.google.com/sheets/api/) to get sta
 
 |:warning: Warning |
 |:------------------|
-|Only loads sheets data once per build, this is to save API calls.|
+|Only loads sheets data once per build, this is to save API calls. Therefore changes made to the sheets during development will not be displayed until restarting the dev server.|
 
 #### Required Options
 
